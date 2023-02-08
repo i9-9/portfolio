@@ -40,6 +40,13 @@ body {
         font-style: regular;
     }
     @font-face{
+        font-family: 'Base Neue';
+        src: url(../public/fonts/BaseNeueTrial-Light.woff2) format('woff2');
+        font-display: swap;
+        font-weight: 300;
+        font-style: light;
+    }
+    @font-face{
         font-family: 'OffBit';
         src: url(../public/fonts/OffBitTrial-DotBold.woff2) format('woff2');
         font-display: swap;
