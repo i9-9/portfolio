@@ -11,17 +11,24 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   return (
-     <div className='mx-auto'>
+     <div className='mx-auto bg-hero-mesh2 overflow-hidden'>
       <div className='flex flex-col my-4'>
         <h1 className='text-6xl leading-1 lg:text-[12.3rem] leading-[0.85] text-center font-black text-verde uppercase'>Ivan Nevares</h1>
         <h2 className='text-6xl leading-1 lg:text-[11.7rem] leading-[0.7] font-offBitBold text-verde text-center uppercase'>Digital Designer</h2>
       </div>
-      <Navbar className='mt-8' />
-      <div className='grid grid-cols-2 mx-1 my-16 '>
+      <hr className='md:hidden border border-t-verde border-b-verde mx-1'/>
+      <Navbar className='bg-transparent	' />
+      <div className='grid md:grid-cols-2 mx-1 my-8 '>
         <div>
-          <p className=' text-verde text-5xl font-bold'>
+          <p className=' text-verde text-4xl md:text-5xl font-bold'>
             I’m Ivan Nevares, a web developer and UI designer interested in generating creative and performant digital experiences  
           </p>
+          <div>
+          <p className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer'>Explore my work
+              <TbArrowBigDownLines className='ml-2 animate-bounce' style={{color: '#ADE252'}} size={30}/></p>
+            
+          </div>
+
         </div>
         <div className='flex justify-between'>
           <div className='flex flex-col'>
@@ -32,13 +39,8 @@ export default function Home() {
               <p className='text-verde text-2xl underline'>GITHUB</p><img src='/system-uicons_external.svg' width={26} height={26} />
             </Link>
           </div>
-          <div className=''>
+          <div className='flex justify-around'>
             <GiBoomerangSun style={{color: '#ADE252'}} className='animate-spin-slow' size={100} />
-            <motion.div
-              animate={{ y: ["2rem", "4rem"]  }}
-              transition={{ repeat: Infinity, reverse: Infinity, duration: 1, ease: "easeOut"  }}>
-              <TbArrowBigDownLines style={{color: '#ADE252'}} size={ 100}/>
-            </motion.div>
           </div>
         </div>
         </div>

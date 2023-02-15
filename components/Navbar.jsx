@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='grid-cols-2 grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-2 text-verde mx-1 text-xl sticky top-0 bg-violeta z-10 '>
+    <div className='hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-2 text-verde mx-1 text-xl sticky top-0 bg-transparent z-10  '>
         <div className=''>
         <button>PORTFOLIO</button>
         </div>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className='flex'>
                 <button>DIGITAL GARDEN</button>
             </div>
-            <div className='self-center justify-end bg-violeta'>
+            <div className='self-center justify-end bg-transparent'>
                 <Link href='/contact'>
                     <button className='p-2 border-solid border-verde border-[1px]'>CONTACT</button>
                 </Link>

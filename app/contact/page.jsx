@@ -4,14 +4,14 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="mx-1">
+    <div className="bg-hero-mesh overflow-hidden">
       <Navbar />
-      <h1 className="text-6xl md:text-9xl text-verde font-bold my-8">CONTACT</h1>
-      <h3 className="text-xl md:text-2xl text-verde font-bold">
+      <h1 className="text-6xl md:text-9xl text-verde font-bold my-8 mx-1">CONTACT</h1>
+      <h3 className="text-xl md:text-2xl text-verde font-bold mx-1">
         We can either talk and discuss your project, or you can follow me up for
         future reference:{" "}
       </h3>
-      <div className="grid md:grid-cols-3 text-center my-10 gap-6 ">
+      <div className="grid md:grid-cols-3 text-center my-10 gap-6 mx-1">
         <div className="bg-verde h-fit py-20">
           <h4 className="text-3xl md:text-7xl font-bold">EMAIL</h4>
         </div>
@@ -22,7 +22,7 @@ const page = () => {
           <h4 className="text-3xl md:text-7xl font-bold">GITHUB</h4>
         </div>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 mx-1">
         <div className="grid-span-3 border-solid border border-verde">
           <form className="flex flex-col">
             <label htmlFor="name">
