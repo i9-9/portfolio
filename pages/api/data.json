@@ -1,0 +1,20 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "img1": "/projects-landing/kostume1.png",
+            "img2": "/projects-landing/kostume2.png",
+            "img3": "/projects-landing/kostume3.png",
+            "title": "Kostume",
+            "description": "Design for fashionwear KOSTUME"
+        },
+        {
+            "id": 2,
+            "img1": "/projects-c7/c7-1.png",
+            "img2": "/projects-c7/c7-2.png",
+            "img3": "/projects-c7/c7-3.png",
+            "title": "C7 STUDIO",
+            "description": "Design and development for my freelance agency, collaborating with Florencia Gomez (dev)"
+        }
+    ]
+}
