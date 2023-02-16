@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-mesh': "url('/mesh.png')",
-        'hero-mesh2': "url('/mesh2.png')"
+        'hero-mesh2': "url('/mesh2.png')",
+        'hero-mesh3': "url('/mesh3.png')"
       },
       fontFamily: {
         baseBlack: 'Base Neue, black',
