@@ -6,7 +6,7 @@ import Work from '@/components/Work'
 import Image from 'next/image'
 import Link from 'next/link'
 import { TbArrowBigDownLines } from 'react-icons/tb'
-import {GiBoomerangSun} from 'react-icons/Gi'
+import { GiSun } from 'react-icons/Gi'
 import { motion } from "framer-motion"
 
 export default function Home() {
@@ -38,7 +38,7 @@ export default function Home() {
             </Link>
             </div>
             <div className='flex justify-around'>
-              <GiBoomerangSun style={{color: '#ADE252'}} className='animate-spin-slow' size={100} />
+              <GiSun style={{color: '#ADE252'}} className='animate-spin-slow' size={100} />
             </div>
           </div>
         </div>
