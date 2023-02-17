@@ -5,8 +5,6 @@ import Navbar from '@/components/Navbar'
 import Work from '@/components/Work'
 import Image from 'next/image'
 import Link from 'next/link'
-import { TbArrowBigDownLines } from 'react-icons/tb'
-import { GiSun } from 'react-icons/Gi'
 import { motion } from "framer-motion"
 
 export default function Home() {
@@ -24,8 +22,8 @@ export default function Home() {
             I’m Ivan Nevares, a web developer and UI designer interested in generating creative and performant digital experiences  
           </p>
           <div className='flex ml-4 md:ml-0 justify-start '>
-          <p className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer'>Explore my work
-              <TbArrowBigDownLines className='ml-2 animate-bounce' style={{color: '#ADE252'}} size={30}/></p>
+          <p className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer doublearrow'>Explore my work
+              <img src='/double-arrow.svg' className='ml-2 animate-bounce' style={{color: '#ADE252'}} size={30}/></p>
           </div>
         </div>
         <div className='flex justify-between ml-4 md:ml-0 my-24 sm:my-0 items-center md:items-start'>
@@ -38,7 +36,7 @@ export default function Home() {
             </Link>
             </div>
             <div className='flex justify-around'>
-              <GiSun style={{color: '#ADE252'}} className='animate-spin-slow' size={100} />
+              test
             </div>
           </div>
         </div>
