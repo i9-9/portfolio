@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
+
   return (
     <div className='hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-2 text-verde mx-1 text-xl sticky top-0 bg-transparent z-10  '>
         <div className=''>
@@ -28,12 +29,9 @@ const Navbar = () => {
                 <Link href='/contact'>
                     <button className='p-2 border-solid border-verde border-[1px] hover:bg-[#0E0E0E]/30 active:border-[2px]'>CONTACT</button>
                 </Link>
-
-
             </div>
-
         </div>
-  </div>
+      </div>
   )
 }
 
