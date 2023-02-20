@@ -23,7 +23,9 @@ const Navbar = () => {
                 <button className='hover-underline-animation'>INFO</button>
             </div>
             <div className='flex items-center'>
-                <h4 className='hover-underline-animation cursor-pointer'>DIGITAL GARDEN</h4>
+                <Link href='/digital-garden'>
+                    <h4 className='hover-underline-animation cursor-pointer'>DIGITAL GARDEN</h4>
+                </Link>
             </div>
             <div className='self-center justify-end bg-transparent'>
                 <Link href='/contact'>

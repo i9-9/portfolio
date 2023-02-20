@@ -10,7 +10,7 @@ const page = () => {
       <h1 className="text-6xl md:text-9xl text-verde font-bold my-8 mx-1">CONTACT</h1>
       <h3 className="text-xl md:text-2xl text-verde font-bold mx-1">
         We can either talk and discuss your project, or you can follow me up for
-        future reference:{" "}
+        future reference:
       </h3>
       <div className="grid md:grid-cols-3 text-center my-10 gap-6 mx-1">
         <div className="bg-verde h-fit py-20">
