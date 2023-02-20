@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <section className="bg-hero-mesh h-screen bg-repeat">
+    <section className="bg-hero-mesh h-a bg-repeat">
       <Navbar />
       <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
         DIGITAL<br />GARDEN
@@ -24,7 +24,88 @@ const page = () => {
           <option value="EV">EVERGREEN</option>
         </select>
       </div>
-      <div className="grid grid-cols-3 mx-1 gap-10 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 mx-1 gap-10 my-10">
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
+        <div className="border border-verde flex flex-col text-verde px-2">
+          <div className="flex flex-row items-center justify-between py-3">
+            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
+            <Image width={20} height={20} src='/digital-garden/seeding.png' />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
+          </p>
+        </div>
         <div className="border border-verde flex flex-col text-verde px-2">
           <div className="flex flex-row items-center justify-between py-3">
             <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
