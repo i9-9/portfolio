@@ -1,14 +1,10 @@
 "use client"
 
 import Image from 'next/image';
-import React, { useState } from 'react'
 import Marquee from "react-fast-marquee";
 
 
 const Work = () => {
-
-  const [isShown, setIsShown] = useState(false);
-
 
   return (
     <div className='mx-1 h-auto'>
@@ -19,53 +15,47 @@ const Work = () => {
              pauseOnHover={false} 
              gradient={false} 
              className='flex justify-center myDIV'>
-                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
             </Marquee>
-            {isShown && (
-              <div>
-                I'll appear when you hover over the button.
-              </div>
-             )}
 
             <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-10'>
-                <Image className='mx-2' src='/projects-c7/c7-1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-4.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-4.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-4.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-4.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-1.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-2.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-3.png' width={450} height={354} />
-                <Image className='mx-2' src='/projects-c7/c7-4.png' width={450} height={354} />
-
+                <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-4.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-4.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-4.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-4.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />
+                <Image className='mx-2' src='/projects-c7/c7-4.png' alt='c7 studio project' width={450} height={354} />
             </Marquee>
             
         </div>

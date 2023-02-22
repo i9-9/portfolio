@@ -19,7 +19,7 @@ export default function Home() {
       <div className='grid md:grid-cols-2 mx-1 my-8 '>
         <div>
           <p className='text-left ml-4 md:ml-0 text-verde text-3xl md:text-5xl font-bold'>
-            I’m Ivan Nevares, a web developer and UI designer interested in generating creative and performant digital experiences  
+            I'm Ivan Nevares, a web developer and UI designer interested in generating creative and performant digital experiences  
           </p>
           <div className='flex ml-4 md:ml-0 justify-start '>
           <p className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer doublearrow'>Explore my work
