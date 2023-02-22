@@ -44,7 +44,7 @@ const Work = () => {
               </div>
              )}
 
-            <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-4 myDIV'>
+            <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-10'>
                 <Image className='mx-2' src='/projects-c7/c7-1.png' width={450} height={354} />
                 <Image className='mx-2' src='/projects-c7/c7-2.png' width={450} height={354} />
                 <Image className='mx-2' src='/projects-c7/c7-3.png' width={450} height={354} />

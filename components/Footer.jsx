@@ -9,8 +9,8 @@ const Footer = () => {
     //     </div>
     // </footer>
 
-    <footer className='py-4 bg-transparent md:py-8 lg:py-10 mx-1 bottom-0 '>
-      <div className='mx-auto text-center flex items-center justify-between border-t-[1px] border-b-[1px] border-solid border-verde'>
+    <footer className='py-4 bg-transparent md:py-8 lg:py-2 mx-1 bottom-0'>
+      <div className='mx-auto text-center flex items-center justify-between border-t-[1px] border-b-[1px] border-solid border-verde '>
         <h5 className='text-verde font-light text-2xl'>COPYRIGHT 2023</h5>
         <h6 className='font-bold text-verde text-4xl'>I / N</h6>
       </div>

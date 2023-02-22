@@ -13,17 +13,17 @@ const page = () => {
         future reference:
       </h3>
       <div className="grid md:grid-cols-3 text-center my-10 gap-6 mx-1">
-        <div className="bg-verde h-fit py-20">
+        <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all">
           <Link href='mailto:ivannevares9@gmail.com'>
             <h4 className="text-3xl md:text-7xl font-bold">EMAIL</h4>
           </Link>
         </div>
-        <div className="bg-verde h-fit py-20">
+        <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all">
           <Link href='https://www.behance.net/ivan_nevares'>
             <h4 className="text-3xl md:text-7xl font-bold">BEHANCE</h4>
           </Link>
         </div>
-        <div className="bg-verde h-fit py-20">
+        <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all">
         <Link href='https://github.com/i9-9'>
           <h4 className="text-3xl md:text-7xl font-bold">GITHUB</h4>
         </Link>
