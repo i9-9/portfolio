@@ -11,6 +11,7 @@ module.exports = {
         'hero-mesh': "url('/mesh.png')",
         'hero-mesh2': "url('/mesh2.png')",
         'hero-mesh3': "url('/mesh3.png')",
+        'hero-xl': "url('/mesh4.png')",
         'hero-mesh4': "url('/SM-MESH.png')",
         'hero-mesh5': "url('/MD-MESH.png')",
         'hero-mesh6': "url('/XL-MESH.png')",

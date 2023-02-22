@@ -1,6 +1,5 @@
 "use client"
 
-import Footer from '@/components/Footer'
 import NavbarHome from '@/components/NavbarHome'
 import Work from '@/components/Work'
 import Image from 'next/image'
@@ -9,7 +8,7 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   return (
-     <div className='mx-auto bg-hero-mesh2 bg-repeat'>
+     <div className='mx-auto'>
       <div className='flex flex-col mb-4 ml-4 md:mb-0 md:ml-0 py-10 md:py-2 mx-auto'>
         <h1 className='text-left text-5xl sm:text-7xl md:text-[5.7rem] lg:text-[8rem] xl:text-[12.125rem] xl:leading-[0.8] md:text-center font-black text-verde uppercase'>Ivan Nevares</h1>
         <h2 className='text-left text-5xl sm:text-7xl md:text-[5.8rem] lg:text-[8rem] xl:text-[11.5rem] xl:leading-[0.8] font-offBitBold md:text-center text-verde uppercase'>Digital Designer</h2>

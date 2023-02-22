@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <section className="bg-hero-mesh h-auto pb-10 bg-repeat">
+    <section className="h-auto pb-10 bg-repeat">
       <Navbar />
       <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
         DIGITAL<br />GARDEN
