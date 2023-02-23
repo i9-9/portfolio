@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>I/N Digital Design</title>
+      <title>&#9796; Digital Design</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Ivan Nevares - Digital Designer" />
       <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
