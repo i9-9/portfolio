@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className='bg-hero-xl'>{children}
+      <body className='bg-mesh-5'>{children}
       <Footer />
       </body>
     </html>

@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             <div className='self-center justify-end bg-transparent'>
                 <Link href='/contact'>
-                    <button className='p-2 border-solid border-verde border-[1px] hover:bg-[#0E0E0E]/30 active:border-[2px]'>CONTACT</button>
+                    <button className='p-2 border-solid border-verde border-[1px] hover:bg-[#0E0E0E]/30 hover:text-verde hover:bg-violeta duration-700'>CONTACT</button>
                 </Link>
             </div>
         </div>

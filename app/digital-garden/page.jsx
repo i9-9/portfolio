@@ -1,9 +1,18 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-const page = () => {
+async function getPosts(){
+  const response = await fetch('http://localhost:3000/api/garden');
+  const data = await response.json();
+
+  return data.posts;
+}
+
+export default async function Page() {
+  const posts = await getPosts();
   return (
     <section className="h-auto pb-10 bg-repeat">
       <Navbar />
@@ -25,117 +34,23 @@ const page = () => {
         </select>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 mx-1 gap-10 my-10">
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
-        <div className="border border-verde flex flex-col text-verde px-2">
-          <div className="flex flex-row items-center justify-between py-3">
-            <h2 className="font-bold text-2xl">NEURODIVERSITY</h2>
-            <Image width={20} height={20} src='/digital-garden/seeding.png' />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos omnis aut, expedita unde earum laudantium porro asperiores ab ut rerum a. Modi sapiente nam ex deserunt reprehenderit quidem consequatur.
-          </p>
-        </div>
+        {posts.map(({id, title, description}) => (
+          <li className="border border-verde flex flex-col text-verde px-2 hover:bg-violeta transition-all duration-700" key={id}>
+            <div className="flex flex-row items-center justify-between py-3">
+            <Link href={`/digital-garden/${id}`}>
+              <h2 className="font-bold text-2xl hover-underline-animation">
+              {title}
+              </h2>
+            </Link>
+            </div>
+            <p className="pb-4">
+              {description}
+            </p>
+          </li>
+        ))}
       </div>
     </section>
   );
 };
 
-export default page;
+

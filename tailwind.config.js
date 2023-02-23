@@ -12,6 +12,7 @@ module.exports = {
         'hero-mesh2': "url('/mesh2.png')",
         'hero-mesh3': "url('/mesh3.png')",
         'hero-xl': "url('/mesh4.png')",
+        'mesh-5': "url('/mesh5.png')",
         'hero-mesh4': "url('/SM-MESH.png')",
         'hero-mesh5': "url('/MD-MESH.png')",
         'hero-mesh6': "url('/XL-MESH.png')",
@@ -25,7 +26,7 @@ module.exports = {
         offBitBold: 'OffBit, bold'
       },
       colors: {
-        'violeta': '#79728E',
+        'violeta': '#5226AA',
         'verde': '#ADE252',
       },
       animation: {
