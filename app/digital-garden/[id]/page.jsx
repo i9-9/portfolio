@@ -1,17 +1,30 @@
 import Navbar from "@/components/Navbar";
 
+// export async function generateStaticParams(){
+//     const response = await fetch('http://localhost:3000/api/garden');
+//     const data = await response.json();
+
+//     const ids = data.posts.map((post) => ({
+//         id: post.id
+//     }));
+
+//     console.log(ids)
+//     return ids;
+// }
+
+
 async function getPost(id) {
         const response = await fetch(`http://localhost:3000/api/post/${id}`);
         return response.json()
 }
 
-export default async function Post({ params, searchParams}) {
+export default async function Post({ params, searchParams }) {
 
-    const {id} = params;
+    const { id } = params;
     const post = await getPost(id);
 
 
-console.log(`Params: ${JSON.stringify(params)}`)
+console.log(`Params: $JSON.stringify(params)}`);
 
 console.log(`Search Params: ${JSON.stringify(searchParams)}`)
 
@@ -25,7 +38,10 @@ return (
       </h1>
       <hr className="border-verde border" />
       <h2 className="text-verde px-1 font-bold text-6xl py-3">{post.title}</h2>
-      <p className="px-1 text-verde">{post.description}</p>
+      
+      <h3 className="text-verde mx-1 font-light">{post.date}</h3>
+      
+      <p className="px-1 text-lg text-verde">{post.description}</p>
     </section>
     
 );

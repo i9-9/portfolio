@@ -1,8 +1,6 @@
-import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 async function getPosts(){
   const response = await fetch('http://localhost:3000/api/garden');
@@ -27,7 +25,7 @@ export default async function Page() {
           id="Growth"
           className="bg-transparent border border-verde text-verde text-lg focus:ring-verde block w-full p-2.5 "
         >
-          <option selected>ALL GROWTH STAGES</option>
+          <option defaultValue>ALL GROWTH STAGES</option>
           <option value="SE">SEEDLING</option>
           <option value="BU">BUDDING</option>
           <option value="EV">EVERGREEN</option>
@@ -36,16 +34,16 @@ export default async function Page() {
       <div className="grid grid-cols-1 md:grid-cols-3 mx-1 gap-10 my-10">
         {posts.map(({id, title, description}) => (
           <li className="border border-verde flex flex-col text-verde px-2 hover:bg-violeta transition-all duration-700" key={id}>
-            <div className="flex flex-row items-center justify-between py-3">
             <Link href={`/digital-garden/${id}`}>
-              <h2 className="font-bold text-2xl hover-underline-animation">
-              {title}
-              </h2>
-            </Link>
-            </div>
+              <div className="flex flex-row items-center justify-between py-3">
+                <h2 className="font-bold text-2xl hover-underline-animation">
+                {title}
+                </h2>
+              </div>
             <p className="pb-4">
               {description}
             </p>
+            </Link>
           </li>
         ))}
       </div>
