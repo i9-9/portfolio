@@ -1,16 +1,16 @@
 import Navbar from "@/components/Navbar";
 
-// export async function generateStaticParams(){
-//     const response = await fetch('http://localhost:3000/api/garden');
-//     const data = await response.json();
+export async function generateStaticParams() {
+    const response = await fetch('http://localhost:3000/api/garden');
+    const data = await response.json();
 
-//     const ids = data.posts.map((post) => ({
-//         id: post.id
-//     }));
+    const ids = data.posts.map((post) => ({
+        id: post.id
+    }));
 
-//     console.log(ids)
-//     return ids;
-// }
+    console.log(ids)
+    return ids;
+}
 
 
 async function getPost(id) {
@@ -36,7 +36,7 @@ return (
       <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
         DIGITAL<br />GARDEN
       </h1>
-      <hr className="border-verde border" />
+      <hr className="border-verde border mx-1" />
       <h2 className="text-verde px-1 font-bold text-6xl py-3">{post.title}</h2>
       
       <h3 className="text-verde mx-1 font-light">{post.date}</h3>
