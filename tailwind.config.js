@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         baseBlack: 'Base Neue, black',
         baseBold: 'Base Neue, bold',
+        baseSemiBold: 'Base Neue, semibold',
         baseMedium: 'Base Neue, medium',
         baseRegular: 'Base Neue, regular',
         baseLight: 'Base Neue, light',

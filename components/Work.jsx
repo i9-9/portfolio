@@ -11,6 +11,7 @@ const Work = () => {
         <h2 className='text-center md:text-left text-verde text-7xl font-bold mt-12 py-10 '>WORK</h2>
         <div className='py-6'>
             <Marquee 
+              speed={25}
              play={true} 
              pauseOnHover={false} 
              gradient={false} 

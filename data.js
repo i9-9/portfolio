@@ -22,13 +22,13 @@ export const posts = {
       id: "4",
       title: "BASS",
       date: "25/2/2023",
-      description: "It's the best instrument, amirite?",
+      description: "It is the best instrument, amirite?",
     },
     {
       id: "5",
       title: "MACHINES AND THE FUTURE OF AI",
       date: "25/2/2023",
-      description: "Technology grows, and I'm growing away from it",
+      description: "Technology grows, and I am growing away from it",
     },
     {
       id: "6",
