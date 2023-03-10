@@ -8,9 +8,9 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   return (
-    <div className='mx-auto'>
+    <div className='mx-auto bg-diamond'>
       <div>
-        <h1 className='title text-6xl text-verde py-4 px-1 uppercase'>Ivan Nevares</h1>
+        <h1 className='title italic text-6xl text-verde py-4 px-1 uppercase'>Ivan Nevares</h1>
       </div>
       <NavbarHome />
       <div className='grid md:grid-cols-2 mx-1 my-8 mt-80 '>
@@ -20,7 +20,7 @@ export default function Home() {
           </p>
           <div className='flex ml-4 md:ml-0 justify-start '>
           <p className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer doublearrow'>Explore my work
-              <img src='/double-arrow.svg' className='ml-2 animate-bounce' style={{color: '#ADE252'}} size={30}/></p>
+              <img alt='arrow that points downwards' src='/double-arrow.svg' className='ml-2 animate-bounce' style={{color: '#ADE252'}} size={30}/></p>
           </div>
         </div>
         <div className='hidden md:flex justify-between ml-4 md:ml-0 my-24 sm:my-0 items-center md:items-start'>

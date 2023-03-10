@@ -8,7 +8,7 @@ const Work = () => {
 
   return (
     <div className='mx-1 h-auto'>
-        <h2 className='text-center md:text-left text-verde text-7xl font-bold mt-12 py-10 '>WORK</h2>
+        <h2 className='text-center md:text-left text-verde text-7xl font-bold mt-12 py-2 '>WORK</h2>
         <div className='py-6'>
             <Marquee 
               speed={25}

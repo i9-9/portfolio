@@ -16,6 +16,7 @@ module.exports = {
         'hero-mesh4': "url('/SM-MESH.png')",
         'hero-mesh5': "url('/MD-MESH.png')",
         'hero-mesh6': "url('/XL-MESH.png')",
+        'diamond': "url('/diamond.png')"
       },
       fontFamily: {
         baseBlack: 'Base Neue, black',

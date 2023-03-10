@@ -5,7 +5,7 @@ export async function generateStaticParams() {
     const data = await response.json();
 
     const ids = data.posts.map((post) => ({
-        id: post.id
+        id: post.id.toString()
     }));
 
     console.log(ids)
@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 
 async function getPost(id) {
   try { 
-    const response = await fetch(`http://localhost:3000/api/post/${id}`);
+    const response = await fetch(`http://localhost:3000/api/garden/${id}`);
     return response.json()
   }
   catch (error){
