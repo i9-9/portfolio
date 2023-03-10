@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,7 +25,7 @@ export default async function Page() {
           id="Growth"
           className="bg-transparent border border-verde text-verde text-lg focus:ring-verde block w-full p-2.5 "
         >
-          <option defaultValue>ALL GROWTH STAGES</option>
+          <option>ALL GROWTH STAGES</option>
           <option value="SE">SEEDLING</option>
           <option value="BU">BUDDING</option>
           <option value="EV">EVERGREEN</option>

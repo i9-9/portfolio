@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../../../components/Navbar";
 
 export async function generateStaticParams() {
     const response = await fetch('http://localhost:3000/api/garden');
@@ -19,7 +19,7 @@ async function getPost(id) {
     return response.json()
   }
   catch (error){
-    console.log('Error parsing JSON:', error, response);
+    console.log('Error parsing JSON:', error, Response);
   }
 }
 
