@@ -33,11 +33,11 @@ const PostPage = (props: any) => {
           DIGITAL<br />GARDEN
         </h1>
         <hr className="border-verde border mx-1" />
-        <h2 className="text-verde px-1 font-bold text-6xl py-3">{post.data.title}</h2>
+        <h2 className="text-verde px-1 font-bold text-6xl py-3 text-center">{post.data.title}</h2>
         
-        <h3 className="text-verde mx-1 font-light">{post.data.date}</h3>
+        <h3 className="text-verde mx-1 font-light text-center">{post.data.date}</h3>
         
-        <Markdown className="px-1 text-lg text-verde">{post.content }</Markdown>
+        <Markdown className="prose px-1 text-lg text-verde mt-10 mx-auto">{post.content}</Markdown>
       </section>
       
   );
