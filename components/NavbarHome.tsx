@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import {AiOutlineMenu} from 'react-icons/ai'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 const NavbarHome = () => {
   const [color, setColor] = useState("transparent");
@@ -12,7 +12,7 @@ const NavbarHome = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 40) { 
+      if (window.scrollY >= 40) {
         setColor("#5226AA");
       } else {
         setColor("transparent");
@@ -25,30 +25,30 @@ const NavbarHome = () => {
     <div>
       <AiOutlineMenu size={25} onClick={handleNav} className="absolute top-8 right-8 z-[1000] md:hidden text-verde border border-verde rounded" />
       {
-        nav ? 
-        (
-          <div className="fixed w-full  h-screen bg-diamond justify-center items-center z-20 text-verde font-bold mx-auto">
-            <Link className="w-[75%] flex justify-center mx-auto  my-16"  href="/">
-              <li className="text-4xl font-bold list-none">INDEX</li>
-            </Link>
-            <Link className="w-[75%] flex justify-center mx-auto  my-16"  href="/">
-              <li className="text-4xl font-bold list-none">WORK</li>
-            </Link>
-            <Link className="w-[75%] flex justify-center mx-auto  my-16"  href="/info">
-              <li className="text-4xl font-bold list-none">INFO</li>
-            </Link>
-            <Link className="w-[75%] flex justify-center mx-auto  my-16"  href="/digital-garden">
-              <li className="text-4xl font-bold list-none">DIGITAL GARDEN</li>
-            </Link>
-            <Link className="w-[75%] flex justify-center mx-auto  my-16"  href="/contact">
-              <li className="text-4xl font-bold list-none">CONTACT</li>
-            </Link>
-          </div>
-        ) 
-        : 
-        (
-          <div></div>
-        )
+        nav ?
+          (
+            <div className="fixed w-full h-screen bg-diamond justify-center items-center z-20 text-verde font-bold mx-auto ease-in duration-500 transition-all">
+              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
+                <li className="text-4xl font-bold list-none">INDEX</li>
+              </Link>
+              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
+                <li className="text-4xl font-bold list-none">WORK</li>
+              </Link>
+              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/info">
+                <li className="text-4xl font-bold list-none">INFO</li>
+              </Link>
+              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/digital-garden">
+                <li className="text-4xl font-bold list-none">DIGITAL GARDEN</li>
+              </Link>
+              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/contact">
+                <li className="text-4xl font-bold list-none">CONTACT</li>
+              </Link>
+            </div>
+          )
+          :
+          (
+            <div></div>
+          )
       }
       <header
         style={{ backgroundColor: `${color}` }}

@@ -4,8 +4,6 @@ subtitle: "My notes on the version control system"
 date: "09/22/2022"
 ---
 
-# GIT
-
 Repositories → overall changes of a project
 
 Timeline of the entire project

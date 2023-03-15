@@ -9,6 +9,8 @@
 
 html {
     font-family: 'Base Neue';
+    --scroll-behavior: smooth!important;
+    scroll-behavior: smooth!important;
 }
 
 @layer base {

@@ -3,6 +3,7 @@ import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetadata from "../../../components/getPostMetadata";
+import Link from "next/link";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -29,9 +30,11 @@ const PostPage = (props: any) => {
   return (
       <section className="h-auto pb-10 bg-repeat">
         <Navbar />
-        <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
-          DIGITAL<br />GARDEN
-        </h1>
+        <Link href='/digital-garden'>
+          <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
+            DIGITAL<br />GARDEN
+          </h1>
+        </Link>
         <hr className="border-verde border mx-1" />
         <h2 className="text-verde px-1 font-bold text-6xl py-3 text-center">{post.data.title}</h2>
         
