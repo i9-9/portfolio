@@ -4,15 +4,19 @@ import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import React, { useState } from "react";
 
-const page = () => {
+const InfoPage = () => {
 
-  const [language, setLanguage] = useState(true);
   
   const handleLanguage = () => {
     setLanguage(!language);
   }
-
+  
+  const [language, setLanguage] = useState(true);
   return (
+    
+    
+    
+    
     <div className="pb-28">
       <Navbar />
       <h1 className="text-6xl md:text-9xl text-verde font-bold py-2 mx-1">
@@ -106,4 +110,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default InfoPage;
+
