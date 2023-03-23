@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const page = () => {
   return (
-    <div className="bg-hero-mesh h-auto bg-repeat pb-28 min-h-screen">
+    <div className="h-auto bg-repeat pb-28 min-h-screen px-4">
       <Navbar />
       <h1 className="text-6xl md:text-9xl text-verde font-bold my-8 mx-1">CONTACT</h1>
       <h3 className="text-xl md:text-2xl text-verde font-bold mx-1">
@@ -12,21 +12,21 @@ const page = () => {
         future reference:
       </h3>
       <div className="grid md:grid-cols-3 text-center my-10 gap-6 mx-1">
-        <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all duration-700">
-          <Link href='mailto:ivannevares9@gmail.com'>
+        <Link href='mailto:ivannevares9@gmail.com'>
+          <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all duration-700">
             <h4 className="text-3xl md:text-7xl font-bold">EMAIL</h4>
-          </Link>
-        </div>
-        <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all duration-700">
-          <Link href='https://www.behance.net/ivan_nevares'>
-            <h4 className="text-3xl md:text-7xl font-bold">BEHANCE</h4>
-          </Link>
-        </div>
-        <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all duration-700">
-        <Link href='https://github.com/i9-9'>
-          <h4 className="text-3xl md:text-7xl font-bold">GITHUB</h4>
+          </div>
         </Link>
-        </div>
+        <Link href='https://www.behance.net/ivan_nevares'>
+          <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all duration-700">
+            <h4 className="text-3xl md:text-7xl font-bold">BEHANCE</h4>
+          </div>
+        </Link>
+        <Link href='https://github.com/i9-9'>
+          <div className="bg-verde h-fit py-20 hover:bg-[#5226AA] hover:text-[#ADE252] transition-all duration-700">
+            <h4 className="text-3xl md:text-7xl font-bold">GITHUB</h4>
+          </div>
+        </Link>
       </div>
     </div>
   );

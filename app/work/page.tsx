@@ -6,7 +6,7 @@ import Work from '../../components/Work'
 
 const page = () => {
   return (
-    <div>
+    <div className='px-4 mx-auto'>
         <Navbar />
         <Work />
     </div>

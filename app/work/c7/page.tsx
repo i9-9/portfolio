@@ -5,9 +5,9 @@ import Navbar from '../../../components/Navbar'
 
 const page = () => {
     return (
-        <div>
+        <div className='px-4'>
             <Navbar />
-            <div className='grid grid-cols-2 py-3'>
+            <div className='grid grid-cols-2 py-6'>
                 <div className='flex flex-col gap-2'>
                     <Image alt="image showing work for fashionwear brand Kostume" src="/projects-c7/c7-1.png" height={650} width={650} />
                     <Image alt="image showing work for fashionwear brand Kostume" src="/projects-c7/c7-2.png" height={650} width={650} />

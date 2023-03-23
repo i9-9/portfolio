@@ -51,7 +51,7 @@ const NavbarHome = () => {
                 <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
                   <li className="text-4xl font-bold list-none">INDEX</li>
                 </Link>
-                <Link href='#work' onClick={handleScrollMobile} className="w-[75%] flex justify-center mx-auto my-16" 
+                <Link href='/work' className="w-[75%] flex justify-center mx-auto my-16" 
                 >
                   <li className="text-4xl font-bold list-none">WORK</li>
                 </Link>
@@ -75,7 +75,7 @@ const NavbarHome = () => {
       }
       <header
         style={{ backgroundColor: `${color}` }}
-        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde px-1 text-xl sticky top-0 z-10 transition duration-1000  "
+        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde px-4 text-xl sticky top-0 z-10 transition duration-1000 mt-2  "
       >
         <div className="">
           <Link href="/">

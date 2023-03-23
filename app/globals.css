@@ -95,14 +95,6 @@ html {
     transform-origin: bottom left;
   }
 
-  .fotito{
-    filter: blur(5px);
-  }
-
-  .fotito:hover {
-    filter:none;
-    cursor:pointer
-  }
 
   .title {
     font-family: 'Base Neue';

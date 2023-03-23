@@ -8,10 +8,10 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   return (
-    <div className='mx-auto bg-diamond'>
+    <div className='mx-auto bg-diamond px-4'>
       <div>
         <Link href='/'>
-          <h1 className='title italic text-6xl text-verde py-4 px-1 uppercase'>Ivan Nevares</h1>
+          <h1 className='title italic text-6xl text-verde py-4 px-2 uppercase'>Ivan Nevares</h1>
         </Link>
       </div>
       <NavbarHome />
