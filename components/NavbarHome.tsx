@@ -11,6 +11,13 @@ const NavbarHome = () => {
     const target = document.querySelector(targetId);
     target?.scrollIntoView({ behavior: "smooth" });
   };
+  const handleScrollMobile = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute("href") as string;
+    const target = document.querySelector(targetId);
+    target?.scrollIntoView({ behavior: "smooth" });
+    handleNav();
+  };
 
   const [color, setColor] = useState("transparent");
   const [nav, setNav] = useState(false);
@@ -41,7 +48,7 @@ const NavbarHome = () => {
                 <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
                   <li className="text-4xl font-bold list-none">INDEX</li>
                 </Link>
-                <Link href='#work' className="w-[75%] flex justify-center mx-auto my-16" 
+                <Link href='#work' onClick={handleScrollMobile} className="w-[75%] flex justify-center mx-auto my-16" 
                 >
                   <li className="text-4xl font-bold list-none">WORK</li>
                 </Link>
@@ -79,7 +86,9 @@ const NavbarHome = () => {
             <Link href="/">
               <button className="hover-underline-animation">INDEX</button>
             </Link>
-            <button className="hover-underline-animation">WORK</button>
+            <Link href="#work" onClick={handleScroll}>
+              <button className="hover-underline-animation">WORK</button>
+            </Link>
             <Link href="/info">
               <button className="hover-underline-animation">INFO</button>
             </Link>
