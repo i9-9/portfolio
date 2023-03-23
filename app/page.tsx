@@ -5,7 +5,6 @@ import NavbarHome from '../components/NavbarHome'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
-import Up from '../components/Up'
 
 export default function Home() {
   return (
@@ -19,21 +18,23 @@ export default function Home() {
       <div className='grid md:grid-cols-2 mx-1 my-8 md:mt-80 '>
         <div>
           <p className='text-left ml-4 md:ml-0 text-verde text-5xl '>
-            I&apos;m a web developer and UI designer interested in generating creative and performant digital experiences  
+            I&apos;m a web developer and UI designer interested in generating creative and performant digital experiences
           </p>
           <div className='flex ml-4 md:ml-0 justify-start '>
-            <Link href='#work' >
-              <p className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer doublearrow'>Explore my work
-                  <img alt='arrow that points downwards' src='/double-arrow.svg' className='ml-2 animate-bounce' style={{color: '#ADE252'}} /></p>
-            
+            <Link href="#work" scroll={false}>
+              <p onClick={(e) => {
+                e.preventDefault();
+                const target = document.querySelector("#work");
+                target?.scrollIntoView({ behavior: "smooth" });
+              }} className='text-verde text-3xl mt-6 flex items-center font-light italic hover-underline-animation cursor-pointer doublearrow'>Explore my work
+                <img alt='arrow that points downwards' src='/double-arrow.svg' className='ml-2 animate-bounce' style={{ color: '#ADE252' }} /></p>
             </Link>
           </div>
         </div>
         <div className='hidden md:flex justify-between ml-4 md:ml-0 my-24 sm:my-0 items-center md:items-start'>
-          </div>
         </div>
+      </div>
       <Work />
-      <Up />
     </div>
   )
 }

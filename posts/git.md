@@ -61,23 +61,3 @@ MERGE
 Pararse sobre el branch master (o el branch al que se mergeará el otro branch)
 
 git merge dev
-
-### **Getting & Creating Projects**
-
-[Untitled](https://www.notion.so/9a5f24e72982488dadb0c5714b220758)
-
-### **Basic Snapshotting**
-
-[Untitled](https://www.notion.so/0d7f2298b0f448718ee9227d0a2dabda)
-
-### **Branching & Merging**
-
-[Untitled](https://www.notion.so/5c04eb55077148148c13728f6e305781)
-
-### **Sharing & Updating Projects**
-
-[Untitled](https://www.notion.so/a2993d79c0894d1d984ffedf82ec3a0d)
-
-### **Inspection & Comparison**
-
-[Untitled](https://www.notion.so/f18c925e1d21471995178dcd078f7c74)

@@ -41,16 +41,16 @@ const InfoPage = () => {
               UX/UI</li>
           </ul>
           <h3 className="mx-1 text-xl font-bold text-verde ">
-            From Buenos Aires, Arg
+            Buenos Aires, Arg
           </h3>
           <br /> 
           {
             language ?
             (<div className="flex">
-              <button className="mx-1 text-xl font-bold text-verde">
+              <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta">
                 EN
               </button>
-              <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 ">
+              <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta">
               ES
               </button>
             </div>
@@ -58,10 +58,10 @@ const InfoPage = () => {
             :
             (
             <div className="flex">
-              <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25">
+              <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta">
                 EN
               </button>
-              <button className="mx-1 text-xl font-bold text-verde">
+              <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta">
                 ES
               </button>
             </div>

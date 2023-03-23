@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
-
+import { useRef } from 'react';
 
 const Work = () => {
 
+  const ref = useRef<HTMLDivElement>(null)
+
   return (
-    <div id='work' className='mx-1 h-auto'>
+    <div ref={ref} id='work' className='mx-1 h-auto pt-1'>
         <h2 className='text-center md:text-left text-verde text-7xl font-bold mt-12 py-2 '>WORK</h2>
         <div className='py-6'>
             <Marquee 

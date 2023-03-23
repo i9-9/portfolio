@@ -3,6 +3,15 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const NavbarHome = () => {
+
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute("href") as string;
+    const target = document.querySelector(targetId);
+    target?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const [color, setColor] = useState("transparent");
   const [nav, setNav] = useState(false);
 
@@ -23,26 +32,30 @@ const NavbarHome = () => {
 
   return (
     <div>
-      <AiOutlineMenu size={25} onClick={handleNav} className="absolute top-8 right-8 z-[1000] md:hidden text-verde border border-verde rounded" />
+      <AiOutlineMenu size={25} onClick={handleNav} className="absolute top-8 right-8  z-[1000] md:hidden text-verde border border-verde rounded" />
       {
         nav ?
           (
-            <div className="fixed w-full h-screen bg-diamond justify-center items-center z-20 text-verde font-bold mx-auto ease-in duration-500 transition-all">
-              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
-                <li className="text-4xl font-bold list-none">INDEX</li>
-              </Link>
-              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
-                <li className="text-4xl font-bold list-none">WORK</li>
-              </Link>
-              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/info">
-                <li className="text-4xl font-bold list-none">INFO</li>
-              </Link>
-              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/digital-garden">
-                <li className="text-4xl font-bold list-none">DIGITAL GARDEN</li>
-              </Link>
-              <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/contact">
-                <li className="text-4xl font-bold list-none">CONTACT</li>
-              </Link>
+            <div className="">
+              <div className="absolute top-0 left-0 w-full h-screen bg-diamond pt-28 z-20 text-verde font-bold mx-auto ease-in duration-500 transition-all">
+                <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
+                  <li className="text-4xl font-bold list-none">INDEX</li>
+                </Link>
+                <Link href='#work' className="w-[75%] flex justify-center mx-auto my-16" 
+                >
+                  <li className="text-4xl font-bold list-none">WORK</li>
+                </Link>
+                <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/info">
+                  <li className="text-4xl font-bold list-none">INFO</li>
+                </Link>
+                <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/digital-garden">
+                  <li className="text-4xl font-bold list-none">DIGITAL GARDEN</li>
+                </Link>
+                <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/contact">
+                  <li className="text-4xl font-bold list-none">CONTACT</li>
+                </Link>
+              </div>
+
             </div>
           )
           :
