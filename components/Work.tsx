@@ -15,7 +15,7 @@ const Work = () => {
              play={true} 
              pauseOnHover={false} 
              gradient={false} 
-             className='flex justify-center'>
+             className='flex justify-center border border-t-verde border-b-verde py-1'>
                 <Image className='mx-2' src='/projects-landing/kostume/kostume1.png' alt='kostume project' width={450} height={354} />
                 <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
                 <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
@@ -35,7 +35,7 @@ const Work = () => {
                 <Image className='mx-2' src='/projects-landing/kostume/kostume2.png' alt='kostume project' width={450} height={354} />
                 <Image className='mx-2' src='/projects-landing/kostume/kostume3.png' alt='kostume project' width={450} height={354} />
             </Marquee>
-            <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-10'>
+            <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-10 border border-t-verde border-b-verde py-1'>
                 <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
                 <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
                 <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />

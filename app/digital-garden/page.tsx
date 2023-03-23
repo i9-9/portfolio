@@ -22,7 +22,7 @@ export default async function Page() {
   
   return (
   
-    <section className="h-auto pb-10 bg-repeat">
+    <section className="h-auto pb-10 bg-repeat min-h-screen">
       <Navbar />
       <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
         DIGITAL<br />GARDEN

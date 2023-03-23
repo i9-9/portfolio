@@ -89,7 +89,7 @@ const NavbarHome = () => {
             <Link href="/">
               <button className="hover-underline-animation">INDEX</button>
             </Link>
-            <Link href="#work" onClick={handleScroll}>
+            <Link href="/work">
               <button className="hover-underline-animation">WORK</button>
             </Link>
             <Link href="/info">

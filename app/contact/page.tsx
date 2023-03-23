@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const page = () => {
   return (
-    <div className="bg-hero-mesh h-auto bg-repeat pb-28">
+    <div className="bg-hero-mesh h-auto bg-repeat pb-28 min-h-screen">
       <Navbar />
       <h1 className="text-6xl md:text-9xl text-verde font-bold my-8 mx-1">CONTACT</h1>
       <h3 className="text-xl md:text-2xl text-verde font-bold mx-1">
