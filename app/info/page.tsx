@@ -17,7 +17,7 @@ const InfoPage = () => {
     
     
     
-    <div className="pb-28">
+    <div className="pb-28 px-4">
       <Navbar />
       <h1 className="text-6xl md:text-9xl text-verde font-bold py-2 mx-1">
         INFO

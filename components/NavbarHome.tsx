@@ -72,7 +72,7 @@ const NavbarHome = () => {
       }
       <header
         style={{ backgroundColor: `${color}` }}
-        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde px-1 text-xl sticky top-0 z-10 transition duration-1000 mx-1 "
+        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde text-xl sticky top-0 z-10 transition duration-1000 mx-1 "
       >
         <div className="">
           <Link href="/">
