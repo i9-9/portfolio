@@ -103,7 +103,7 @@ const InfoPage = () => {
             }
         </div>
         <div>
-          <Image className="mx-1 p-10 my-2 fotito rounded-3xl" src='/sangre.jpg' alt="picture of programmer into the unknown" height={1000} width={1000} />
+          <Image className="mx-1 p-10 my-2 rounded-3xl" src='/sangre.jpg' alt="picture of programmer into the unknown" height={1000} width={1000} />
         </div>
       </div>
     </div>
