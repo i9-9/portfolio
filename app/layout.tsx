@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head />
-      <body className='min-h-screen bg-hero-mesh6'>
+      <body className='min-h-screen bg-gradient-to-r from-black via-violeta to-black'>
         {children}
         <Footer />
       </body>
