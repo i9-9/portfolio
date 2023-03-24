@@ -15,7 +15,7 @@ export default function Home() {
         </Link>
       </div>
       <NavbarHome />
-      <div className='grid md:grid-cols-2 mx-1 my-8 md:mt-80 '>
+      <div className='grid md:grid-cols-2 mx-1 my-8 md:mt-72 '>
         <div>
           <p className='text-left ml-4 md:ml-0 text-verde text-5xl '>
             I&apos;m a web developer and UI designer interested in generating creative and performant digital experiences

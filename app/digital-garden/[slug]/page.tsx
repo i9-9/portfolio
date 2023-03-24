@@ -28,7 +28,7 @@ const PostPage = (props: any) => {
   const post = getPostContent(slug);
 
   return (
-      <section className="h-auto pb-10 bg-repeat">
+      <section className="h-auto pb-10 bg-repeat px-4">
         <Navbar />
         <Link href='/digital-garden'>
           <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
@@ -36,7 +36,7 @@ const PostPage = (props: any) => {
           </h1>
         </Link>
         <hr className="border-verde border mx-1" />
-        <h2 className="text-verde px-1 font-bold text-6xl py-3 text-center">{post.data.title}</h2>
+        <h2 className="text-verde px-1 font-bold text-6xl py-6 text-center">{post.data.title}</h2>
         
         <h3 className="text-verde mx-1 font-light text-center">{post.data.date}</h3>
         

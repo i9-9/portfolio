@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head />
-      <body className='bg-mesh-5 min-h-screen'>
+      <body className='min-h-screen bg-hero-mesh6'>
         {children}
         <Footer />
       </body>
