@@ -21,13 +21,13 @@ const page = () => {
                     </p>
                     <div className='py-2'>
                         <Link  href="https://landing-plum-sigma.vercel.app/">
-                            <button className='btn text-verde border border-verde px-2 py-1 hover:bg-violeta transition-all duration-1000'>LIVE SITE</button>
+                            <button className='btn text-verde border border-verde px-2 py-1 hover:bg-verde hover:text-violeta transition-all duration-1000'>LIVE SITE</button>
                         </Link>
                         <Link href="https://www.behance.net/gallery/164122441/C7-STUDIO">
-                            <button className='btn text-verde border border-verde px-2 py-1 hover:bg-violeta transition-all duration-1000'>BEHANCE</button>
+                            <button className='btn text-verde border border-verde px-2 py-1 hover:bg-verde hover:text-violeta transition-all duration-1000'>BEHANCE</button>
                         </Link>
                         <Link href="https://github.com/c7-studio/landing">
-                            <button className='btn text-verde border border-verde px-2 py-1 hover:bg-violeta transition-all duration-1000'>GITHUB</button>
+                            <button className='btn text-verde border border-verde px-2 py-1 hover:bg-verde hover:text-violeta transition-all duration-1000'>GITHUB</button>
                         </Link>
                         
                     </div>

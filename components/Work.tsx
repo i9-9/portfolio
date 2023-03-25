@@ -8,7 +8,7 @@ const Work = () => {
   const ref = useRef<HTMLDivElement>(null)
 
   return (
-    <div ref={ref} id='work' className='mx-1 h-auto pt-1'>
+    <div ref={ref} id='work' className='mx-1 h-auto pt-1 '>
         <h2 className='text-center md:text-left text-verde text-7xl font-bold mt-12 py-2 '>WORK</h2>
         <div className='py-6'>
           <Link href="/work/kostume">
@@ -62,14 +62,14 @@ const Work = () => {
                 <Image className='mx-2' src='/projects-c7/c7-4.png' alt='c7 studio project' width={450} height={354} />
             </Marquee>
           </Link>
-          <h3 className='text-verde font-bold'>See more projects in <br/></h3>
-          <div className='text-verde'>
-            <button className='border border-verde px-1 py-2 hover:bg-verde hover:text-violeta transition-all duration-700'>
+          <h3 className='text-verde font-bold'>See more projects:<br/></h3>
+          <div className='text-verde font-bold grid grid-cols-2'>
+            <button className='border border-verde px-1 py-2 hover:bg-verde hover:text-violeta transition-all duration-700 text-3xl'>
               <Link  href="https://github.com/i9-9" >
                 Github
               </Link>
             </button>
-            <button className='border border-verde px-1 py-2  hover:bg-verde hover:text-violeta transition-all duration-700'>
+            <button className='border border-verde px-1 py-2  hover:bg-verde hover:text-violeta transition-all duration-700 text-3xl'>
               <Link  href="https://www.behance.net/ivan_nevares" >
                 Behance
               </Link>
