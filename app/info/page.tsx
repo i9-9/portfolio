@@ -47,7 +47,7 @@ const InfoPage = () => {
                   <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta transition-all duration-700">
                     EN
                   </button>
-                  <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta">
+                  <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta transition-all duration-700">
                     ES
                   </button>
                 </div>
@@ -55,10 +55,10 @@ const InfoPage = () => {
                 :
                 (
                   <div className="flex transition-all duration-700">
-                    <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta">
+                    <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta transition-all duration-700">
                       EN
                     </button>
-                    <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta">
+                    <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta transition-all duration-700">
                       ES
                     </button>
                   </div>
@@ -102,7 +102,7 @@ const InfoPage = () => {
           </div>
         </div>
         <div>
-          <Image className="mx-1 p-10 my-2 rounded-3xl" src='/sangre.jpg' alt="picture of programmer into the unknown" height={1000} width={1000} />
+          <Image className="mx-1 p-2 my-2 border border-verde shadow justify-self-end" src='/sangre.jpg' alt="picture of programmer into the unknown" height={500} width={500} />
         </div>
       </div>
     </div>

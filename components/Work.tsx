@@ -63,7 +63,7 @@ const Work = () => {
             </Marquee>
           </Link>
           <h3 className='text-verde font-bold'>See more projects:<br/></h3>
-          <div className='text-verde font-bold grid grid-cols-2'>
+          <div className='text-verde font-bold grid grid-cols-1 md:grid-cols-2'>
             <button className='border border-verde px-1 py-2 hover:bg-verde hover:text-violeta transition-all duration-700 text-3xl'>
               <Link  href="https://github.com/i9-9" >
                 Github
