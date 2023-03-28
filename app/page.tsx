@@ -11,16 +11,16 @@ export default function Home() {
     <div className='mx-auto px-4'>
       <div>
         <Link href='/'>
-          <h1 className='title text-5xl text-verde py-6 md:py-4 px-2 uppercase'>Ivan Nevares</h1>
+          <h1 className='title text-5xl text-verde py-6 md:py-4 uppercase'>Ivan Nevares</h1>
         </Link>
       </div>
       <NavbarHome />
-      <div className='grid md:grid-cols-2 mx-1 my-8 md:mt-[25rem] '>
+      <div className='grid md:grid-cols-2 my-48 md:mb-0 md:mt-[25rem] '>
         <div>
-          <p className='text-left ml-4 md:ml-0 text-verde text-4xl '>
+          <p className='text-left text-verde text-4xl '>
             I&apos;m a web developer and UI designer interested in generating creative and performant digital experiences
           </p>
-          <div className='flex ml-4 md:ml-0 justify-start '>
+          <div className='flex justify-start '>
             <Link href="#work" scroll={false}>
               <p onClick={(e) => {
                 e.preventDefault();
