@@ -40,7 +40,7 @@ const PostPage = (props: any) => {
         
         <h3 className="text-verde mx-1 font-light text-center">{post.data.date}</h3>
         
-        <Markdown className="prose px-1 text-lg text-verde mt-10 mx-auto">{post.content}</Markdown>
+        <Markdown className="text-center prose prose-headings:text-verde prose-a:text-verde hover:prose-a:text-verde/60 px-1 text-lg text-verde mt-10 mx-auto">{post.content}</Markdown>
       </section>
       
   );

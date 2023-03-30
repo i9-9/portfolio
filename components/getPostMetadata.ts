@@ -16,6 +16,7 @@ const getPostMetadata = (): PostMetadata[] => {
         title: matterResult.data.title,
         date: matterResult.data.date,
         subtitle: matterResult.data.subtitle,
+        type: matterResult.data.type,
         slug: fileName.replace(".md", "")
       };
     });
@@ -23,4 +24,4 @@ const getPostMetadata = (): PostMetadata[] => {
     return posts;
   };
 
-  export default getPostMetadata
+  export default getPostMetadata;

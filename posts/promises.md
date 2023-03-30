@@ -2,43 +2,41 @@
 title: "Promises and the DOM"
 subtitle: "Basics on what a promise is and the Document Object Model"
 date: "08/13/2022"
+type: "budding"
 ---
 
 
-Promises. Asíncronas por naturaleza
+Promises. Asynchronous by nature. 
 
-Una *Promesa* (Promise) es un proxy de un valor que no necesariamente se conoce cuando se crea la promesa. Le permite asociar controladores con el valor eventual de éxito o el motivo de falla de una acción asíncrona. Esto permite que los métodos asíncronos devuelvan valores como los métodos síncronos: en lugar de devolver inmediatamente el valor final, el método asíncrono devuelve la promesa de proporcionar el valor en algún momento en el futuro.
+A *Promise* is a proxy of a value that is not necessarily known when the promise is created. It allows it to associate controllers withe the eventual value of success or the reason of failure of an asynchronous action. This allows that async methods return values like synchronous methods: instead of returning the finally value immediately, the asynchronous return the promise of delivering the value sometime in the future. 
 
 ```jsx
-const promesa = new Promise((resolve, reject) => {
+const prom = new Promise((resolve, reject) => {
 
 	setTimeout( () => {
-	console.log( '2 segundos después' )
+	console.log( '2 seconds later' )
   }, 2000 )
  
 
 });
 ```
 
-A `[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)` is an object representing the eventual completion or failure of an asynchronous operation. Since most people are consumers of already-created promises, this guide will explain consumption of returned promises before explaining how to create them.
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. Since most people are consumers of already-created promises, this guide will explain consumption of returned promises before explaining how to create them.
 
-Las promesa se crean con un argumento que es un CALLBACK, con dos argumentos
+Promises are created with one argument that is a callback, with two arguments:
+Resolve and Reject.
 
-Resolve y Reject.
+Resolver executes if the promise is succesful, and reject executes if the promise shows an error or failure, eventually notifying the person that the promise wasn't succesful.
 
-Es una convencion que se llamen asi
 
-Resolve se ejecuta si la promesa es exitosa
 
-Reject se ejecuta si la promesa presenta una falla o algo no se pueda cumplir
+then → the promise was succesful
 
-y necesite notificarle a la persona que espera la promesa q esta no se pudo cumplir
+catch→ the promise was erroneous
 
-then → la promesa es exitosa. 
+finally→after then, and after catch.
 
-catch→dio error.
 
-finally→despues del then y depsues del catch. 
 
 ```jsx
 const promesa = new Promise((resolve, reject) => {
@@ -53,12 +51,11 @@ const promesa = new Promise((resolve, reject) => {
 
 });
 ```
+---
 
-como le mandamos argumentos al then?
+#The D.O.M
 
-The **DOM**
-
-Document Object Model
+##Document Object Model
 
 The lawyer is the advocate, someone who speaks on behalf of another person. 
 
@@ -100,9 +97,7 @@ I can say
 
 document.querySelectorAll(’hello’).innerHTML = ‘<span>Hi</span>’
 
-![Captura de Pantalla 2022-12-28 a la(s) 13.28.55.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d72fe17-06de-4b09-bb9f-fffe855b431d/Captura_de_Pantalla_2022-12-28_a_la(s)_13.28.55.png)
-
-Also, in the object, i can ***see*** the html inside innerHTML whereas in innerText it won’t show. 
+Also, in the object, i can see the html inside innerHTML whereas in innerText it won’t show. 
 
 the document object also shows us there is an outerHTML and an outerText
 
@@ -125,7 +120,7 @@ var spanH1 = document.querySelectorAll('h1 span');
 spanH1[0].innerHTML = "new text here!!!"
 ```
 
-**Event listeners**
+##Event listeners
 
 We can have an inline event like
 
