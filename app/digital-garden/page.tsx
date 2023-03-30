@@ -29,7 +29,7 @@ export default async function Page() {
       <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold my-6 mx-1 ">
         DIGITAL<br />GARDEN
       </h1>
-      <p className="text-verde pb-3 text-lg">"A digital garden is an online space at the intersection of a notebook and a blog, <br />where digital gardeners share seeds of thoughts to be cultivated in public."</p>
+      <p className="text-verde pb-3 text-lg">A digital garden is an online space at the intersection of a notebook and a blog, <br />where digital gardeners share seeds of thoughts to be cultivated in public.</p>
       <h3 className="text-xl md:text-4xl text-verde font-medium mx-1 uppercase">
         Filter by growth stage:
       </h3>
