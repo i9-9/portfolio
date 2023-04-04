@@ -101,7 +101,7 @@ const InfoPage = () => {
 
           </div>
         </div>
-        <div>
+        <div className="flex justify-center">
           <Image className="mx-1 p-2 my-2 border border-verde shadow justify-self-end" src='/sangre.jpg' alt="picture of programmer into the unknown" height={500} width={500} />
         </div>
       </div>
