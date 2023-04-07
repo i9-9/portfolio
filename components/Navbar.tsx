@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu } from 'react-icons/ai'
 
-const NavbarHome = () => {
+const Navbar = () => {
 
 
   const handleScrollMobile = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -118,4 +118,4 @@ const NavbarHome = () => {
   );
 };
 
-export default NavbarHome;
+export default Navbar;
