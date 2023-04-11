@@ -101,3 +101,14 @@ html {
     font-style: expanded black oblique;
     font-weight: 800;
   }
+
+  .custom {
+    background-color:hsla(82,71%,60%,1);
+    background-image:
+    radial-gradient(at 91% 0%, hsla(260,63%,40%,1) 0px, transparent 50%),
+    radial-gradient(at 4% 29%, hsla(143,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 84% 89%, hsla(100,0%,0%,0.88) 0px, transparent 50%),
+    radial-gradient(at 11% 20%, hsla(346,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 5% 65%, hsla(313,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 44% 65%, hsla(82,71%,60%,1) 0px, transparent 50%);
+  }

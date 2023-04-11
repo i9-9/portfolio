@@ -21,8 +21,8 @@ export default function Home() {
         <Link href='/'>
           <motion.h1
             className='title text-5xl text-verde py-6 md:py-4 uppercase '
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0,}}
+            animate={{ opacity: 1}}
             transition={{ delay: 0.2 }}>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -42,15 +42,15 @@ export default function Home() {
         <div>
           <motion.p
             className='text-left text-verde text-4xl '
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0,}}
+            animate={{ opacity: 1}}
             transition={{ delay: 0.6 }}
           >
             {description.split("").map((letter, index) => (
               <motion.span
                 key={index}
-                initial={{ opacity: 0, y: -50 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0,}}
+                animate={{ opacity: 1,}}
                 transition={{ delay: 0.05 * index }}
               >
                 {letter}
@@ -60,8 +60,8 @@ export default function Home() {
           <div className='flex justify-start '>
             <Link href="#work" scroll={false}>
               <motion.p
-                initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0,}}
+                animate={{ opacity: 1,}}
                 transition={{ delay: 0.2 }}
                 onClick={(e) => {
                   e.preventDefault();
