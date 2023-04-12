@@ -41,7 +41,7 @@ export default function Home() {
       <div className='grid md:grid-cols-2 mb-48 md:mb-0 md:mt-[25rem] '>
         <div>
           <motion.p
-            className='text-left text-verde text-4xl '
+            className='text-left text-verde text-4xl pt-28 md:py-0'
             initial={{ opacity: 0,}}
             animate={{ opacity: 1}}
             transition={{ delay: 0.6 }}
