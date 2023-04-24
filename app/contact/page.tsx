@@ -28,6 +28,16 @@ const page = () => {
           </div>
         </Link>
       </div>
+      <div>
+        <button className="border border-verde p-2 mx-1 text-verde text-3xl hover:bg-verde hover:text-violeta transition transition-all">
+          <a
+            href="/cv_inevares_front.pdf"
+            target="_blank"
+            download
+            rel="noopener noreferrer"
+          >Download CV</a>
+        </button>
+      </div>
     </div>
   );
 };
