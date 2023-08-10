@@ -6,8 +6,7 @@ const page = () => {
   return (
     <div className="h-auto bg-repeat pb-28 min-h-screen px-4">
       <Navbar />
-      <h1 className="text-6xl md:text-9xl text-verde font-bold my-8 mx-1">CONTACT</h1>
-      <h3 className="text-xl md:text-2xl text-verde font-bold mx-1">
+      <h3 className="text-xl md:text-2xl text-verde font-bold mx-1 mt-20">
         We can either talk and discuss your project, or you can follow me up for
         future reference:
       </h3>
@@ -29,14 +28,14 @@ const page = () => {
         </Link>
       </div>
       <div>
-        <button className="border border-verde p-2 mx-1 text-verde text-3xl hover:bg-verde hover:text-violeta drop-shadow transition transition-all">
+        {/* <button className="border border-verde p-2 mx-1 text-verde text-3xl hover:bg-verde hover:text-violeta drop-shadow transition transition-all">
           <a
             href="/cv_inevares_front.pdf"
             target="_blank"
             download
             rel="noopener noreferrer"
           >Download CV</a>
-        </button>
+        </button> */}
       </div>
     </div>
   );

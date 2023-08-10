@@ -7,7 +7,7 @@ const Work = () => {
 
   return (
     <div id='work' className='mx-1 h-auto pt-1'>
- 
+
       <div className='py-6'>
         <Link href="/work/kostume">
           <Marquee
@@ -37,7 +37,7 @@ const Work = () => {
           </Marquee>
         </Link>
         <Link href="/work/c7">
-          <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-10 border border-t-verde border-b-verde py-1'>
+          <Marquee play={true} pauseOnHover={false} gradient={false} className='flex justify-center my-6 border border-t-verde border-b-verde py-1'>
             <Image className='mx-2' src='/projects-c7/c7-1.png' alt='c7 studio project' width={450} height={354} />
             <Image className='mx-2' src='/projects-c7/c7-2.png' alt='c7 studio project' width={450} height={354} />
             <Image className='mx-2' src='/projects-c7/c7-3.png' alt='c7 studio project' width={450} height={354} />

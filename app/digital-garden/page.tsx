@@ -21,16 +21,12 @@ export default async function Page() {
 
 
   return (
-  
-
-
     <section className="h-auto pb-10 bg-repeat min-h-screen px-4">
       <Navbar />
-      <h1 className="text-6xl md:text-9xl md:leading-[7rem] text-verde font-bold mt-6 mx-1 ">
-        DIGITAL<br />GARDEN
+      <h1 className="text-6xl text-verde font-bold mt-6 mx-1 ">
+        DIGITAL GARDEN
       </h1>
-      <p className="text-verde pb-3 text-lg">A digital garden is an online space at the intersection of a notebook and a blog, <br />where digital gardeners share seeds of thoughts to be cultivated in public.</p>
-      <h3 className="text-xl md:text-4xl text-verde font-medium mx-1 uppercase my-10">
+      <h3 className="text-xl md:text-4xl text-verde font-medium mx-1 uppercase my-2">
         Filter by growth stage:
       </h3>
       <div className="relative bg-transparent grid grid-cols-4 my-2 mx-1">
