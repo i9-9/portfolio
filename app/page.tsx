@@ -6,9 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 
-
-
-
 export default function Home() {
 
   const text = "IVAN NEVARES"
@@ -20,7 +17,7 @@ export default function Home() {
       <div>
         <Link href='/'>
           <motion.h1
-            className='title text-5xl text-verde py-6 md:py-4 uppercase '
+            className='title text-3xl text-verde py-6 md:py-4 uppercase '
             initial={{ opacity: 0,}}
             animate={{ opacity: 1}}
             transition={{ delay: 0.2 }}>
@@ -38,10 +35,10 @@ export default function Home() {
         </Link>
       </div>
       <NavbarHome />
-      <div className='grid md:grid-cols-2 mb-48 md:mb-0 md:mt-[25rem] '>
+      {/* <div className='grid md:grid-cols-2 mb-48 md:mb-0 md:mt-[25rem] '>
         <div>
           <motion.p
-            className='text-left text-verde text-4xl pt-28 md:py-0'
+            className='text-left text-verde text-xl pt-28 md:py-0'
             initial={{ opacity: 0,}}
             animate={{ opacity: 1}}
             transition={{ delay: 0.6 }}
@@ -84,7 +81,7 @@ export default function Home() {
         </div>
         <div className='hidden md:flex justify-between ml-4 md:ml-0 my-24 sm:my-0 items-center md:items-start'>
         </div>
-      </div>
+      </div> */}
       <Work />
     </div>
   )

@@ -72,11 +72,11 @@ const NavbarHome = () => {
       }
       <header
         style={{ backgroundColor: `${color}` }}
-        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde text-xl sticky top-0 z-10 transition duration-1000 mx-1 "
+        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde text-sm sticky top-0 z-10 transition duration-1000 mx-1 "
       >
         <div className="">
           <Link href="/">
-            <h2 className="font-black text-4xl">
+            <h2 className="font-black text-md">
               I<span className="animate-pulse mx-2">/</span>N
             </h2>
           </Link>

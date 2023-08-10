@@ -1,7 +1,7 @@
 ---
 title: "React Lifecycles"
 subtitle: "The three phases of React component lifecycles"
-date: "04/03/2022"
+date: "04/03/2023"
 type: "budding"
 ---
 

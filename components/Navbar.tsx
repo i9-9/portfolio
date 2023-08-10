@@ -75,17 +75,21 @@ const Navbar = () => {
       }
       <header
         style={{ backgroundColor: `${color}` }}
-        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde text-xl sticky top-0 z-10 transition duration-1000 mt-4  "
+        className="hidden grid-cols-2 md:grid items-center border-t-verde border-b-verde border-solid border-t-[1px] border-b-[1px] py-1 text-verde  sticky top-0 z-10 transition duration-1000 mt-4 text-sm "
       >
         <div className="">
           <Link href="/">
-            <h2 className="font-black text-4xl">
-              I<span className="animate-pulse mx-2">/</span>N
+            <h2 className="font-black">
+              I
+              <span className="animate-pulse mx-2">
+                /
+              </span>
+              N
             </h2>
           </Link>
         </div>
         <div className="flex justify-between">
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start ">
             <Link href="/">
               <button className="hover-underline-animation">INDEX</button>
             </Link>
