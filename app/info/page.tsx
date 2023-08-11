@@ -15,16 +15,16 @@ const InfoPage = () => {
   return (
     <div className="pb-28 px-4">
       <Navbar />
-      <h1 className="text-6xl md:text-9xl text-verde font-bold py-2 mx-1">
+      {/* <h1 className="text-6xl md:text-9xl text-verde font-bold py-2 mx-1">
         INFO
-      </h1>
+      </h1> */}
       <div className="grid md:grid-cols-2">
-        <div className="">
-          <h3 className="mx-1 text-5xl font-bold text-verde ">Ivan Nevares</h3>
-          <h4 className=" mx-1 text-4xl text-verde font-offBitBold">
+        <div className="mt-10">
+          <h3 className="mx-1 text-2xl font-bold text-verde ">Ivan Nevares</h3>
+          <h4 className=" mx-1 text-xl text-verde font-offBitBold">
             DIGITAL DESIGN
           </h4>
-          <ul className="text-verde mx-1 text-lg italic my-3">
+          <ul className="text-verde mx-1 text-md italic my-3">
             <li>
               <span className="">
                 -&gt;
@@ -36,7 +36,7 @@ const InfoPage = () => {
               </span>
               UX/UI</li>
           </ul>
-          <h3 className="mx-1 text-xl font-bold text-verde ">
+          <h3 className="mx-1 text-sm font-bold text-verde ">
             Buenos Aires, Arg
           </h3>
           <br />
@@ -55,10 +55,10 @@ const InfoPage = () => {
                 :
                 (
                   <div className="flex transition-all duration-700">
-                    <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta transition-all duration-700">
+                    <button onClick={handleLanguage} className="mx-1 text-sm font-bold text-verde/25 border border-verde p-1 hover:bg-violeta transition-all duration-700">
                       EN
                     </button>
-                    <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta transition-all duration-700">
+                    <button className="mx-1 text-sm font-bold text-verde border border-verde p-1 hover:bg-violeta transition-all duration-700">
                       ES
                     </button>
                   </div>
@@ -68,7 +68,7 @@ const InfoPage = () => {
             {
               language ?
                 (
-                  <p className="text-verde text-base mx-1">
+                  <p className="text-verde text-sm mx-1">
                     <br />
                     At my best when learning, building and contributing to a
                     community! I like assembling UIs that look good and perform fast.
@@ -101,7 +101,7 @@ const InfoPage = () => {
 
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-10">
           <Image className="mx-1 p-2 my-2 border border-verde shadow justify-self-end" src='/sangre.jpg' alt="picture of programmer into the unknown" height={500} width={500} />
         </div>
       </div>
