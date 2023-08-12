@@ -46,7 +46,7 @@ const Navbar = () => {
       {
         nav ?
           (
-            <div className="">
+            <div className="ease-in transition-all duration-500">
               <div className="absolute top-0 left-0 w-full h-screen bg-diamond pt-28 z-20 text-verde font-bold mx-auto ease-in duration-500 transition-all">
                 <Link className="w-[75%] flex justify-center mx-auto  my-16" href="/">
                   <li className="text-4xl font-bold list-none">INDEX</li>
