@@ -76,7 +76,7 @@ const NavbarHome = () => {
       >
         <div className="">
           <Link href="/">
-            <h2 className="font-black text-xl">
+            <h2 className="font-black">
               I<span className="animate-pulse mx-2">/</span>N
             </h2>
           </Link>

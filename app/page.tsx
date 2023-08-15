@@ -17,7 +17,7 @@ export default function Home() {
       <div>
         <Link href='/'>
           <motion.h1
-            className='title text-3xl text-verde py-6 md:py-4 uppercase '
+            className='title text-xl pt-3 pb-3 text-verde uppercase'
             initial={{ opacity: 0,}}
             animate={{ opacity: 1}}
             transition={{ delay: 0.2 }}>

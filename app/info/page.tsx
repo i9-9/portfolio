@@ -44,10 +44,10 @@ const InfoPage = () => {
             {
               language ?
                 (<div className="flex transition-all duration-700">
-                  <button className="mx-1 text-xl font-bold text-verde border border-verde p-1 hover:bg-violeta transition-all duration-700">
+                  <button className="mx-1 text-sm font-bold text-verde border border-verde p-1 hover:bg-violeta transition-all duration-700">
                     EN
                   </button>
-                  <button onClick={handleLanguage} className="mx-1 text-xl font-bold text-verde/25 border border-verde p-1 hover:bg-violeta transition-all duration-700">
+                  <button onClick={handleLanguage} className="mx-1 text-sm font-bold text-verde/25 border border-verde p-1 hover:bg-violeta transition-all duration-700">
                     ES
                   </button>
                 </div>
