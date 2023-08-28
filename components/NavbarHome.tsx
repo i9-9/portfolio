@@ -39,7 +39,7 @@ const NavbarHome = () => {
 
   return (
     <div>
-      <AiOutlineMenu size={25} onClick={handleNav} className="absolute top-8 right-8  z-[1000] md:hidden text-verde border border-verde rounded" />
+      <AiOutlineMenu size={20} onClick={handleNav} className="absolute top-4 right-5  z-[1000] md:hidden text-verde border border-verde rounded" />
       {
         nav ?
           (
