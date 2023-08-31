@@ -13,11 +13,11 @@ export default function Home() {
   const work = "Explore"
 
   return (
-    <div className='mx-auto px-4'>
+    <div className='mx-auto px-4 '>
       <div>
         <Link href='/'>
           <motion.h1
-            className='title text-2xl pt-3 text-verde uppercase pl-1'
+            className='title text-xl pt-1 text-verde uppercase pl-1 md:pl-0 md:border-b-verde md:border-solid md:border-b-[1px]'
             initial={{ opacity: 0,}}
             animate={{ opacity: 1}}
             transition={{ delay: 0.2 }}>

@@ -23,13 +23,13 @@ export default async function Page() {
   return (
     <section className="h-auto pb-10 bg-repeat min-h-screen px-4">
       <Navbar />
-      <h1 className="text-6xl text-verde font-bold mt-6 mx-1 ">
+      <h1 className="text-6xl text-verde font-bold mt-6 mx-1 leading-8	">
         DIGITAL GARDEN
       </h1>
-      <h3 className="text-xl md:text-4xl text-verde font-medium mx-1 uppercase my-2">
+      <h3 className="mt-1 text-xl md:text-4xl text-verde font-medium mx-1 uppercase leading-8">
         Filter by growth stage:
       </h3>
-      <div className="relative bg-transparent grid grid-cols-4 my-2 mx-1">
+      <div className="relative bg-transparent grid grid-cols-4 mx-1">
         <select
           id="Growth"
           className="bg-transparent border border-verde text-verde text-lg focus:ring-verde block w-full p-2.5 "
@@ -40,7 +40,7 @@ export default async function Page() {
           <option value="EV">EVERGREEN</option>
         </select>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 mx-1 gap-10 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 mx-1 gap-10 my-6">
       {postPreviews}
         </div>
     </section>
